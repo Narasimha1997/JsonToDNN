@@ -1,0 +1,28 @@
+{
+    "input_data" : {
+        "shape" : [null, 6],
+        "dtype" : "float32"
+    },
+
+    "layers" : [
+        {
+            "layer1" : {
+                "units" : 60,
+                "activation" : "linear"
+            }
+        },
+        {
+            "layer2" : {
+                "units" : 30,
+                "activation" : "linear"
+            }
+        },
+        {
+            "layer3" : {
+                "units" : 10,
+                "activation" : "softmax"
+            }
+        }
+    ],
+    "optimizer" : "adam"
+}
